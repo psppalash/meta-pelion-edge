@@ -33,7 +33,7 @@ FILES_${PN} += "\
     ${systemd_system_unitdir}/maestro.service\
     "
 
-SRC_URI="git://git@github.com/armPelionEdge/maestro.git;protocol=ssh;branch=master;name=m \
+SRC_URI="git://git@github.com/armPelionEdge/maestro.git;protocol=ssh;branch=memory_leak;name=m \
 file://maestro.sh \
 file://maestro.service \
 "
